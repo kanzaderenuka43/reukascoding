@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Practice</title>
+</head>
+
+<body>
+  <div style="display: grid;
+            grid-template-columns: 100px 100px;">
+    <div style="background-color: lightblue;">div 1</div>
+    <div style="background-color: rgb(209, 132, 186);">div 2 <p>text1</p>
+    </div>
+  </div>
+  <div style="display: grid;
+grid-template-columns: 100px 100px 200px;
+margin-top: 30px;">
+    <div style="background-color: lightblue;">second row 100px</div>
+    <div style="background-color: rgb(209, 132, 186);">div 4 <p>text2</p>
+    </div>
+    <div style="background-color: lightblue;">200px</div>
+    <div style="background-color: rgb(75, 212, 34);">second row 100px</div>
+  </div>
+  <div style="display: grid;
+grid-template-columns: 100px 1fr;
+margin-top: 20px;">
+    <div style="background-color: lightgreen;">Third row</div>
+    <div style="background-color: rgb(167, 173, 73);">Third row 1fr</div>
+  </div>
+  <div style="display: grid;
+              grid-template-columns: 100px 1fr 2fr;
+              margin-top: 20px;">
+    <div style="background-color: lightgreen;">Fourth row</div>
+    <div style="background-color: rgb(167, 173, 73);">Fourth row 1fr</div>
+    <div style="background-color: lightgreen;">Fourth row</div>
+  </div>
+  <div style="display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+              margin-top: 30px;
+              height: 300px;
+              column-gap: 20px;
+              row-gap: 20px;">
+    <div style="background-color: lightgreen;">Fifth row</div>
+    <div style="background-color: rgb(167, 173, 73);">Fifth row 1fr</div>
+    <div style="background-color: lightgreen;">Fifth row</div>
+  
+  
+    <div style="background-color: lightgreen;">Sixth row</div>
+    <div style="background-color: rgb(167, 173, 73);">Sixth row 1fr</div>
+    <div style="background-color: lightgreen;">Sixth row</div>
+  </div>
+</body>
+
+</html>
